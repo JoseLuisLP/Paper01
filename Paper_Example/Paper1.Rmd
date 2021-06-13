@@ -1,6 +1,11 @@
 ---
 title: "Mipaper"
-output: html_document
+output: 
+  bookdown::pdf_book:
+    keep_tex: yes
+    #fig_caption: yes
+    #fig_crop: yes
+
 bibliography: "Biblio2.bib"
 ---
 
