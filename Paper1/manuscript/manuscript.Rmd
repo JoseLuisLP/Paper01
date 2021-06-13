@@ -1,5 +1,5 @@
 ---
-title             : "Curating Research Assets: A Tutorial on the Git Version Control System"
+title             : "Inversión Pública"
 shorttitle        : "Curating Research Assets"
 
 author: 
@@ -9,12 +9,12 @@ author:
     address: 406 Schermerhorn Hall, 1190 Amsterdam Avenue MC 5501, New York, NY 10027
     email: mv2521@columbia.edu
   - name          : "James P. Curley"
-    affiliation   : "1,2"
+    affiliation   : "1"
 affiliation:
   - id            : "1"
-    institution   : "Department of Psychology, Columbia University, New York, USA"
-  - id            : "2"
-    institution   : "Department of Psychology, University of Texas at Austin, Texas, USA"
+    institution   : "Facultad de Economía, Universidad Nacional de San Agustín, Arequipa, Perú"
+  #- id            : "2"
+ #   institution   : "Department of Psychology, University of Texas at Austin, Texas, USA"
 
 abstract: >
   Recent calls for improving reproducibility have increased attention to the ways in which researchers curate, share and collaborate on their research assets. In this tutorial paper, we explain how version control systems, such as the popular Git program, address these challenges to reproducibility. We then present a tutorial on how to use Git with a graphical interface in the R Studio program. This tutorial is written for researchers with no previous experience using version control systems, and covers single-user and collaborative workflows. An online supplement provides information on advanced Git command line functions. Git presents an elegant solution to specific challenges to reproducibility, facilitates multi-site collaboration and productivity by allowing multiple collaborators to work on the same source files simultaneously, and can be implemented to common workflows with little extra effort. Git may also offer a suitable solution to transparent data and material sharing through popular online services, such as GitHub and Open Science Framework.
@@ -26,7 +26,7 @@ figsintext        : yes
 figurelist        : no
 tablelist         : no
 footnotelist      : no
-lineno            : yes
+lineno            : no
 lang              : "en-US"
 class             : "doc"  # man / jou / doc
 output            : papaja::apa6_pdf
